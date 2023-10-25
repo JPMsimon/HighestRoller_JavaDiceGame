@@ -133,7 +133,7 @@ public class JPOggIndice extends JFrame implements ActionListener, KeyListener {
             resultLabel.setText("<html>Congratulations! You win! <br>Get yourself an ice cream, change your socks or something.</html>");
             resultLabel.setFont(new Font("Arial", Font.PLAIN, 30));
         } else if (userTotal < computerTotal) {
-            resultLabel.setText("<html>Your Conscience wins. Better luck next time!<br> <i>Now go look in the mirror and contemplate about you progress in life.</i></html>");
+            resultLabel.setText("<html>Your Conscience wins. Better luck next time!<br> <i>Now go look in the mirror and contemplate about your progress in life.</i></html>");
             resultLabel.setFont(new Font("Arial", Font.PLAIN, 30));
         } else {
             resultLabel.setText("<html>It's a tie!~ <br><i>(Now what?)</i> </html>");
